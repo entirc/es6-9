@@ -11,8 +11,9 @@
     "watchify": "^3.9.0"
   },
   "scripts": {
-    "watchify": "watchify index.js -o dist/bundle.js -t [ babelify --presets [ es2015 ] ] -v",
+    "watchify": "watchify *.js -o dist/bundle.js -t [ babelify --presets [ es2015 ] ] -v",
     "go": "live-server dist"
   },
-  "repository": "https://github.com/entirc/es6-9.git"
+  "repository": "https://github.com/entirc/es6-9.git",
+  "dependencies": {}
 }
