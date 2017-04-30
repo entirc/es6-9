@@ -1,5 +1,3 @@
-import R from 'ramda'
-
 let clear = () => console.clear()
 
 let log = (msg) => console.log(msg)
